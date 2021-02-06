@@ -91,10 +91,8 @@ footer {
     text-decoration:underline;
     cursor:pointer;
 }
-
-
 .btn {
-    background: #eb94d0;
+    background: #ff9900;
     background-image: -webkit-linear-gradient(top, #fdc200, #ff6600);
     background-image: -moz-linear-gradient(top, #fdc200, #ff6600);
     background-image: -ms-linear-gradient(top, #fdc200, #ff6600);
@@ -109,9 +107,9 @@ footer {
     box-shadow: 6px 5px 17px #666666;
     font-family: Arial;
     color: #fafafa;
-    font-size: 17px;
-    padding: 19px;
     text-decoration: none;
+    font-size: 17px;
+    padding: 12px;
 }
 
 .btn:hover {
@@ -125,6 +123,8 @@ footer {
   }
 
 
+
+
     
 /*Media Querie*/
 @media only screen and (min-width : 150px) and (max-width : 530px){
@@ -135,7 +135,6 @@ footer {
     .registro, .olvido {
       margin:10px 0;
     }
-    .botonl {
-      margin-bottom:10px;
-    }
+
+    
 }
